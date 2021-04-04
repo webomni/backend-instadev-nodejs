@@ -1,10 +1,10 @@
 module.exports = {
-  dialect: process.env.DIALECT,
-  host: process.env.HOST,
-  username: process.env.USERNAME,
-  password: process.env.PASSWORD,
-  database: process.env.DATABASE,
-  port: process.env.DB_PORT,
+  dialect: 'mysql', // process.env.DIALECT,
+  host: 'localhost', // process.env.HOST,
+  username: 'root', // process.env.USERNAME,
+  password: 'root', // process.env.PASSWORD,
+  database: 'instadev', // process.env.DATABASE,
+  port: 3308, // process.env.DB_PORT,
   define: {
     timestamps: true,
     underscored: true,
