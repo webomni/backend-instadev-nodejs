@@ -5,5 +5,7 @@
     },
     "eslint.validate": [
         "javascript"
-    ]
+    ],
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
 }
