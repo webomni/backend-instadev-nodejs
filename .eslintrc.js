@@ -15,5 +15,7 @@ module.exports = {
     camelcase: 'off',
     'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
     'max-len': ['error', { code: 80 }],
+    'class-methods-use-this': 'off',
+    'no-restricted-syntax': 'off',
   },
 };
