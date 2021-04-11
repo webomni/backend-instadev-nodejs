@@ -20,4 +20,6 @@ routes.post('/user', schemaValidator(userSchema), UserControler.create);
 
 routes.use(AuthenticationMiddleware);
 
+routes.put('/user', UserControler.update);
+
 module.exports = routes;
