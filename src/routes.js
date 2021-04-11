@@ -21,5 +21,7 @@ routes.post('/user', schemaValidator(userSchema), UserControler.create);
 routes.use(AuthenticationMiddleware);
 
 routes.put('/user', UserControler.update);
+routes.delete('/user', UserControler.delete);
+routes.get('/user-profile', UserControler.userProfile);
 
 module.exports = routes;

@@ -75,5 +75,47 @@ class UserControler {
 
     return res.status(200).json({ message: 'User updated!' });
   }
+
+  async delete(req, res) {
+    const userToDelete = await Users.findOne({
+      where: {
+        id: req.userId,
+      },
+    });
+
+    if (!userToDelete) {
+      return res.status(400).json({ message: 'User not exists!' });
+    }
+
+    await Users.destroy({
+      where: {
+        id: req.userId,
+      },
+    });
+
+    return res.status(200).json({ message: 'User deleted!' });
+  }
+
+  async userProfile(req, res) {
+    const user = await Users.findOne({
+      where: {
+        id: req.userId,
+      },
+    });
+
+    if (!user) {
+      return res.status(400).json({ message: 'User not exists!' });
+    }
+
+    const {
+      id, name, user_name, email, avatar, bio, gender,
+    } = user;
+
+    return res.status(200).json({
+      user: {
+        id, name, user_name, email, avatar, bio, gender,
+      },
+    });
+  }
 }
 module.exports = new UserControler();
