@@ -1,4 +1,5 @@
 const { decryptedToken } = require('../../utils/token');
+const { decrypt } = require('../../utils/crypt');
 
 const verifyJwt = async (req, res, next) => {
   const authHeader = req.headers.authorization;
@@ -8,7 +9,8 @@ const verifyJwt = async (req, res, next) => {
   }
 
   try {
-    await decryptedToken(authHeader);
+    const { userId } = await decryptedToken(authHeader);
+    req.userId = decrypt(userId);
     return next();
   } catch (error) {
     return res.status(401).json({ message: 'Unauthorized!' });
