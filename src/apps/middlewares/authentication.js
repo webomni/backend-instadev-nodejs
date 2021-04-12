@@ -10,7 +10,7 @@ const verifyJwt = async (req, res, next) => {
 
   try {
     const { userId } = await decryptedToken(authHeader);
-    req.userId = decrypt(userId);
+    req.userId = parseInt(decrypt(userId));
     return next();
   } catch (error) {
     return res.status(401).json({ message: 'Unauthorized!' });

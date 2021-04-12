@@ -17,5 +17,6 @@ module.exports = {
     'max-len': ['error', { code: 90 }],
     'class-methods-use-this': 'off',
     'no-restricted-syntax': 'off',
+    radix: 'off',
   },
 };
