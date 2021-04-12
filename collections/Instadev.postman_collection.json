@@ -1,0 +1,289 @@
+{
+	"id": "320304f3-7e57-c036-1efa-85b81c6cb991",
+	"name": "Instadev",
+	"description": "",
+	"order": [
+		"148fb0d3-1ad1-b94b-7432-07df9aa284dc"
+	],
+	"folders": [
+		{
+			"name": "Authentication",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"order": [
+				"7ee15ede-2c02-2497-f2be-bedc088a64bb"
+			],
+			"owner": "2201354",
+			"folders_order": [],
+			"id": "028fbbe7-3e25-1b5d-a479-00da7448d8f2"
+		},
+		{
+			"name": "Upload",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"order": [
+				"d6012438-bfa5-2c87-52f4-30bcaea8d4b4"
+			],
+			"owner": "2201354",
+			"folders_order": [],
+			"id": "0ded3ec0-1b69-987d-5eb4-a6163bfd49a5"
+		},
+		{
+			"name": "User",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"order": [
+				"816b1b07-c0fa-6f75-77f2-e53ea2a5d63b",
+				"2b1a77fa-d111-57a9-bbc1-c93d788862ad",
+				"ebf42a1d-9a61-ade4-068b-339fc011d6e1",
+				"e13cf1b7-f05d-28a4-2bb4-37f5e7c885b4"
+			],
+			"owner": "2201354",
+			"folders_order": [],
+			"id": "d23252ed-7b03-98e8-90b1-fcbef9862cee"
+		}
+	],
+	"folders_order": [
+		"d23252ed-7b03-98e8-90b1-fcbef9862cee",
+		"028fbbe7-3e25-1b5d-a479-00da7448d8f2",
+		"0ded3ec0-1b69-987d-5eb4-a6163bfd49a5"
+	],
+	"timestamp": 1618167747595,
+	"owner": "2201354",
+	"public": false,
+	"requests": [
+		{
+			"id": "148fb0d3-1ad1-b94b-7432-07df9aa284dc",
+			"headers": "",
+			"headerData": [],
+			"url": "{{API_URL}}/health",
+			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618167888743,
+			"name": "Health",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": []
+		},
+		{
+			"id": "2b1a77fa-d111-57a9-bbc1-c93d788862ad",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/user",
+			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618184358466,
+			"name": "Update User",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"avatar\":\"https://carreirafullstack.com/new-avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"gender\":\"Feminino\",\n\t\"old_password\":\"\",\n\t\"new_password\":\"12345678\",\n\t\"confirm_new_password\":\"12345678\"\n}"
+		},
+		{
+			"id": "7ee15ede-2c02-2497-f2be-bedc088a64bb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/auth",
+			"folder": "028fbbe7-3e25-1b5d-a479-00da7448d8f2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618184925460,
+			"name": "Authentication",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"danieldeandradelopes@gmail.com\",\n\t\"user_name\":\"danieldeandradelopes\",\n\t\"password\":\"123\"\n}"
+		},
+		{
+			"id": "816b1b07-c0fa-6f75-77f2-e53ea2a5d63b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/user",
+			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618184651322,
+			"name": "Create User",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"camila\",\n\t\"user_name\":\"camila123\",\n\t\"avatar\":\"https://carreirafullstack.com/avatar.jpg\",\n\t\"password\":\"123\",\n\t\"email\":\"camila@dev2dev.com.br\"\n}"
+		},
+		{
+			"id": "d6012438-bfa5-2c87-52f4-30bcaea8d4b4",
+			"headers": "Authorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/upload",
+			"folder": "0ded3ec0-1b69-987d-5eb4-a6163bfd49a5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "image",
+					"value": "dev2dev.png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618188845609,
+			"name": "Upload",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": []
+		},
+		{
+			"id": "e13cf1b7-f05d-28a4-2bb4-37f5e7c885b4",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/user-profile",
+			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618184629375,
+			"name": "User Profile",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"avatar\":\"https://carreirafullstack.com/avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"gender\":\"Feminino\",\n\t\"old_password\":\"123\",\n\t\"new_password\":\"12345678\",\n\t\"confirm_new_password\":\"12345678\"\n}"
+		},
+		{
+			"id": "ebf42a1d-9a61-ade4-068b-339fc011d6e1",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/user",
+			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618184576466,
+			"name": "Delete User",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": []
+		}
+	]
+}
