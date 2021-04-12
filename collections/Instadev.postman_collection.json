@@ -18,6 +18,22 @@
 			"id": "028fbbe7-3e25-1b5d-a479-00da7448d8f2"
 		},
 		{
+			"name": "Post",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"order": [
+				"ae221f7a-b7ed-6c64-71d3-8a3cd92242b2",
+				"2d0c703e-63cb-18f2-bea0-97608fd56a7f",
+				"68f06935-e64d-d8cc-127e-8197c4c40c81",
+				"3380afb0-e628-dbf6-1f4c-451e2ee738c6",
+				"4ea5174b-6edb-88fe-3bfc-bb5ad5978154",
+				"d0f34a01-a4b4-9809-0687-eb7d30911058"
+			],
+			"owner": "2201354",
+			"folders_order": [],
+			"id": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9"
+		},
+		{
 			"name": "Upload",
 			"description": "",
 			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
@@ -46,7 +62,8 @@
 	"folders_order": [
 		"d23252ed-7b03-98e8-90b1-fcbef9862cee",
 		"028fbbe7-3e25-1b5d-a479-00da7448d8f2",
-		"0ded3ec0-1b69-987d-5eb4-a6163bfd49a5"
+		"0ded3ec0-1b69-987d-5eb4-a6163bfd49a5",
+		"fe3cb498-46ed-c865-b8ab-71ea0a883eb9"
 	],
 	"timestamp": 1618167747595,
 	"owner": "2201354",
@@ -113,6 +130,154 @@
 			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"avatar\":\"https://carreirafullstack.com/new-avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"gender\":\"Feminino\",\n\t\"old_password\":\"\",\n\t\"new_password\":\"12345678\",\n\t\"confirm_new_password\":\"12345678\"\n}"
 		},
 		{
+			"id": "2d0c703e-63cb-18f2-bea0-97608fd56a7f",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/post/4",
+			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618192384036,
+			"name": "Update Post",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
+		},
+		{
+			"id": "3380afb0-e628-dbf6-1f4c-451e2ee738c6",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/list-my-posts",
+			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618193280211,
+			"name": "List My Posts",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
+		},
+		{
+			"id": "4ea5174b-6edb-88fe-3bfc-bb5ad5978154",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/all-posts",
+			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618193467978,
+			"name": "List All Post",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
+		},
+		{
+			"id": "68f06935-e64d-d8cc-127e-8197c4c40c81",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/add-like/4",
+			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618192726217,
+			"name": "Add Like In Post",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
+		},
+		{
 			"id": "7ee15ede-2c02-2497-f2be-bedc088a64bb",
 			"headers": "Content-Type: application/json\n",
 			"headerData": [
@@ -136,12 +301,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1618184925460,
+			"time": 1618191136017,
 			"name": "Authentication",
 			"description": "",
 			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
 			"responses": [],
-			"rawModeData": "{\n\t\"email\":\"danieldeandradelopes@gmail.com\",\n\t\"user_name\":\"danieldeandradelopes\",\n\t\"password\":\"123\"\n}"
+			"rawModeData": "{\n\t\"email\":\"camila@dev2dev.com.br\",\n\t\"user_name\":\"camila123\",\n\t\"password\":\"123\"\n}"
 		},
 		{
 			"id": "816b1b07-c0fa-6f75-77f2-e53ea2a5d63b",
@@ -173,6 +338,79 @@
 			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
 			"responses": [],
 			"rawModeData": "{\n\t\"name\":\"camila\",\n\t\"user_name\":\"camila123\",\n\t\"avatar\":\"https://carreirafullstack.com/avatar.jpg\",\n\t\"password\":\"123\",\n\t\"email\":\"camila@dev2dev.com.br\"\n}"
+		},
+		{
+			"id": "ae221f7a-b7ed-6c64-71d3-8a3cd92242b2",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/post",
+			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618192135451,
+			"name": "Create Post",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/teste.jpg\",\n\t\"description\":\"Viajando para a praia com os amigos.\"\n}"
+		},
+		{
+			"id": "d0f34a01-a4b4-9809-0687-eb7d30911058",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/post/3",
+			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618192132583,
+			"name": "Delete Post",
+			"description": "",
+			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"responses": []
 		},
 		{
 			"id": "d6012438-bfa5-2c87-52f4-30bcaea8d4b4",
