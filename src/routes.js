@@ -28,14 +28,14 @@ routes.use(AuthenticationMiddleware);
 
 routes.put('/user', UserControler.update);
 routes.delete('/user', UserControler.delete);
-routes.get('/user-profile', UserControler.userProfile);
+routes.get('/user/profile', UserControler.userProfile);
 
 routes.post('/upload', upload.single('image'), FileController.upload);
 
 routes.post('/post', schemaValidator(postSchema), PostController.create);
 routes.delete('/post/:id', PostController.delete);
 routes.put('/post/:id', PostController.update);
-routes.put('/add-like/:id', PostController.addLike);
-routes.get('/list-my-posts', PostController.listMyPosts);
+routes.put('post/add-like/:id', PostController.addLike);
+routes.get('post/my-posts', PostController.listMyPosts);
 
 module.exports = routes;
