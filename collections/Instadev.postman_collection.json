@@ -1,419 +1,77 @@
 {
-	"id": "320304f3-7e57-c036-1efa-85b81c6cb991",
+	"id": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 	"name": "Instadev",
 	"description": "",
 	"order": [
-		"148fb0d3-1ad1-b94b-7432-07df9aa284dc"
+		"8f2dfedb-6b89-62e6-1bb3-b7f190c3d5d9"
 	],
 	"folders": [
 		{
 			"name": "Authentication",
 			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 			"order": [
-				"7ee15ede-2c02-2497-f2be-bedc088a64bb"
+				"e526f4c7-c2ec-0ebb-ef89-ddc1aba343f1"
 			],
-			"owner": "2201354",
+			"owner": "2119461",
 			"folders_order": [],
-			"id": "028fbbe7-3e25-1b5d-a479-00da7448d8f2"
+			"id": "dac5144b-3aff-ff89-25c3-9b835d491b6b"
 		},
 		{
 			"name": "Post",
 			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 			"order": [
-				"ae221f7a-b7ed-6c64-71d3-8a3cd92242b2",
-				"2d0c703e-63cb-18f2-bea0-97608fd56a7f",
-				"68f06935-e64d-d8cc-127e-8197c4c40c81",
-				"3380afb0-e628-dbf6-1f4c-451e2ee738c6",
-				"4ea5174b-6edb-88fe-3bfc-bb5ad5978154",
-				"d0f34a01-a4b4-9809-0687-eb7d30911058"
+				"de1e3bac-7533-944b-9389-b924b41486e9",
+				"a8a513fd-6427-e328-796e-a13e7d2bf490",
+				"db6bea59-b3e8-112e-1fd3-7a487acdba8e",
+				"5065bcc5-de2a-407d-8870-f9ab620826d8",
+				"24347ef2-4be7-3fa4-095a-9e502506b3d2",
+				"cdf032c9-e657-897f-a31f-65ac09512be3"
 			],
-			"owner": "2201354",
+			"owner": "2119461",
 			"folders_order": [],
-			"id": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9"
+			"id": "ecc3580b-cf6d-2963-430f-60faeaeff421"
 		},
 		{
 			"name": "Upload",
 			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 			"order": [
-				"d6012438-bfa5-2c87-52f4-30bcaea8d4b4"
+				"5f449d30-899b-5973-a6d1-47aaf590aabb"
 			],
-			"owner": "2201354",
+			"owner": "2119461",
 			"folders_order": [],
-			"id": "0ded3ec0-1b69-987d-5eb4-a6163bfd49a5"
+			"id": "59f448b0-3723-9e9b-4b97-1c4646bee088"
 		},
 		{
 			"name": "User",
 			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 			"order": [
-				"816b1b07-c0fa-6f75-77f2-e53ea2a5d63b",
-				"2b1a77fa-d111-57a9-bbc1-c93d788862ad",
-				"ebf42a1d-9a61-ade4-068b-339fc011d6e1",
-				"e13cf1b7-f05d-28a4-2bb4-37f5e7c885b4"
+				"918f3ba1-f5ee-94df-0a66-c0ae58c418c7",
+				"ab271ad8-e648-c9c4-5d39-925ee2a3a22b",
+				"80341ae2-965f-b57c-fb1b-9897b891e438",
+				"8bd69929-8056-5ff5-6045-255058a84952",
+				"ae77004a-c3ad-47a8-5cdf-9f4d6cb82ee7"
 			],
-			"owner": "2201354",
+			"owner": "2119461",
 			"folders_order": [],
-			"id": "d23252ed-7b03-98e8-90b1-fcbef9862cee"
+			"id": "d1e2427c-986b-8507-79e9-3165c42da2c4"
 		}
 	],
 	"folders_order": [
-		"d23252ed-7b03-98e8-90b1-fcbef9862cee",
-		"028fbbe7-3e25-1b5d-a479-00da7448d8f2",
-		"0ded3ec0-1b69-987d-5eb4-a6163bfd49a5",
-		"fe3cb498-46ed-c865-b8ab-71ea0a883eb9"
+		"d1e2427c-986b-8507-79e9-3165c42da2c4",
+		"dac5144b-3aff-ff89-25c3-9b835d491b6b",
+		"ecc3580b-cf6d-2963-430f-60faeaeff421",
+		"59f448b0-3723-9e9b-4b97-1c4646bee088"
 	],
 	"timestamp": 1618167747595,
-	"owner": "2201354",
+	"owner": "2119461",
 	"public": false,
 	"requests": [
 		{
-			"id": "148fb0d3-1ad1-b94b-7432-07df9aa284dc",
-			"headers": "",
-			"headerData": [],
-			"url": "{{API_URL}}/health",
-			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618167888743,
-			"name": "Health",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": []
-		},
-		{
-			"id": "2b1a77fa-d111-57a9-bbc1-c93d788862ad",
-			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Authorization",
-					"value": "Bearer {{token}}",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/user",
-			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618184358466,
-			"name": "Update User",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"avatar\":\"https://carreirafullstack.com/new-avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"gender\":\"Feminino\",\n\t\"old_password\":\"\",\n\t\"new_password\":\"12345678\",\n\t\"confirm_new_password\":\"12345678\"\n}"
-		},
-		{
-			"id": "2d0c703e-63cb-18f2-bea0-97608fd56a7f",
-			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Authorization",
-					"value": "Bearer {{token}}",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/post/4",
-			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618192384036,
-			"name": "Update Post",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
-		},
-		{
-			"id": "3380afb0-e628-dbf6-1f4c-451e2ee738c6",
-			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Authorization",
-					"value": "Bearer {{token}}",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/list-my-posts",
-			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "GET",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618193280211,
-			"name": "List My Posts",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
-		},
-		{
-			"id": "4ea5174b-6edb-88fe-3bfc-bb5ad5978154",
-			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Authorization",
-					"value": "Bearer {{token}}",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/all-posts",
-			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "GET",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618193467978,
-			"name": "List All Post",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
-		},
-		{
-			"id": "68f06935-e64d-d8cc-127e-8197c4c40c81",
-			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Authorization",
-					"value": "Bearer {{token}}",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/add-like/4",
-			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618192726217,
-			"name": "Add Like In Post",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/new-post.jpeg\",\n\t\"description\":\"Fui na casa de meus pais almoçar.\"\n}"
-		},
-		{
-			"id": "7ee15ede-2c02-2497-f2be-bedc088a64bb",
-			"headers": "Content-Type: application/json\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/auth",
-			"folder": "028fbbe7-3e25-1b5d-a479-00da7448d8f2",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618191136017,
-			"name": "Authentication",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"email\":\"camila@dev2dev.com.br\",\n\t\"user_name\":\"camila123\",\n\t\"password\":\"123\"\n}"
-		},
-		{
-			"id": "816b1b07-c0fa-6f75-77f2-e53ea2a5d63b",
-			"headers": "Content-Type: application/json\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/user",
-			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618184651322,
-			"name": "Create User",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"name\":\"camila\",\n\t\"user_name\":\"camila123\",\n\t\"avatar\":\"https://carreirafullstack.com/avatar.jpg\",\n\t\"password\":\"123\",\n\t\"email\":\"camila@dev2dev.com.br\"\n}"
-		},
-		{
-			"id": "ae221f7a-b7ed-6c64-71d3-8a3cd92242b2",
-			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Authorization",
-					"value": "Bearer {{token}}",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/post",
-			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618192135451,
-			"name": "Create Post",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": [],
-			"rawModeData": "{\n\t\"image\":\"https://carreirafullstack.com/post/teste.jpg\",\n\t\"description\":\"Viajando para a praia com os amigos.\"\n}"
-		},
-		{
-			"id": "d0f34a01-a4b4-9809-0687-eb7d30911058",
-			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Authorization",
-					"value": "Bearer {{token}}",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "{{API_URL}}/post/3",
-			"folder": "fe3cb498-46ed-c865-b8ab-71ea0a883eb9",
-			"queryParams": [],
-			"preRequestScript": null,
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "DELETE",
-			"data": [],
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1618192132583,
-			"name": "Delete Post",
-			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
-			"responses": []
-		},
-		{
-			"id": "d6012438-bfa5-2c87-52f4-30bcaea8d4b4",
+			"id": "24347ef2-4be7-3fa4-095a-9e502506b3d2",
 			"headers": "Authorization: Bearer {{token}}\n",
 			"headerData": [
 				{
@@ -423,8 +81,81 @@
 					"enabled": true
 				}
 			],
+			"url": "{{API_URL}}/posts/add-like/3",
+			"folder": "ecc3580b-cf6d-2963-430f-60faeaeff421",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628789095893,
+			"name": "Add Like",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": []
+		},
+		{
+			"id": "5065bcc5-de2a-407d-8870-f9ab620826d8",
+			"headers": "Authorization: Bearer {{token}}\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/post/3",
+			"folder": "ecc3580b-cf6d-2963-430f-60faeaeff421",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628767270705,
+			"name": "Posts",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://i1.wp.com/www.eurodicas.com.br/wp-content/uploads/2020/11/quem-tem-passaporte-europeu-precisa-de-seguro-viagem-1.jpg\",\n\t\"description\":\"Minha segunda viagem de avião\"\n}"
+		},
+		{
+			"id": "5f449d30-899b-5973-a6d1-47aaf590aabb",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
 			"url": "{{API_URL}}/upload",
-			"folder": "0ded3ec0-1b69-987d-5eb4-a6163bfd49a5",
+			"folder": "ecc3580b-cf6d-2963-430f-60faeaeff421",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -433,7 +164,7 @@
 			"data": [
 				{
 					"key": "image",
-					"value": "dev2dev.png",
+					"value": "post_thumbnail-feef0ffc43c2a9efea93ef59a34c31a4.jpeg",
 					"description": "",
 					"type": "file",
 					"enabled": true
@@ -444,14 +175,51 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1618188845609,
-			"name": "Upload",
+			"time": 1628767388988,
+			"name": "Upload Image",
 			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 			"responses": []
 		},
 		{
-			"id": "e13cf1b7-f05d-28a4-2bb4-37f5e7c885b4",
+			"id": "80341ae2-965f-b57c-fb1b-9897b891e438",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/user",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628788130294,
+			"name": "Update User",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"avatar\":\"https://carreirafullstack.com/new-avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"gender\":\"Feminino\",\n\t\"old_password\":\"\",\n\t\"new_password\":\"12345678\",\n\t\"confirm_new_password\":\"12345678\"\n}"
+		},
+		{
+			"id": "832d60df-13cb-f9b2-86ba-a6c4ab344edb",
 			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
 			"headerData": [
 				{
@@ -468,7 +236,7 @@
 				}
 			],
 			"url": "{{API_URL}}/user-profile",
-			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -483,12 +251,13 @@
 			"time": 1618184629375,
 			"name": "User Profile",
 			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 			"responses": [],
-			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"avatar\":\"https://carreirafullstack.com/avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"gender\":\"Feminino\",\n\t\"old_password\":\"123\",\n\t\"new_password\":\"12345678\",\n\t\"confirm_new_password\":\"12345678\"\n}"
+			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"avatar\":\"https://carreirafullstack.com/avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"gender\":\"Feminino\",\n\t\"old_password\":\"123\",\n\t\"new_password\":\"12345678\",\n\t\"confirm_new_password\":\"12345678\"\n}",
+			"collection_id": "f01bfd59-e71e-b89d-fb8e-8131a176db8c"
 		},
 		{
-			"id": "ebf42a1d-9a61-ade4-068b-339fc011d6e1",
+			"id": "8bd69929-8056-5ff5-6045-255058a84952",
 			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
 			"headerData": [
 				{
@@ -505,7 +274,7 @@
 				}
 			],
 			"url": "{{API_URL}}/user",
-			"folder": "d23252ed-7b03-98e8-90b1-fcbef9862cee",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -520,8 +289,298 @@
 			"time": 1618184576466,
 			"name": "Delete User",
 			"description": "",
-			"collectionId": "320304f3-7e57-c036-1efa-85b81c6cb991",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"collection_id": "f01bfd59-e71e-b89d-fb8e-8131a176db8c"
+		},
+		{
+			"id": "8f2dfedb-6b89-62e6-1bb3-b7f190c3d5d9",
+			"headers": "",
+			"headerData": [],
+			"url": "{{API_URL}}/health",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618167888743,
+			"name": "Health",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"collection_id": "f01bfd59-e71e-b89d-fb8e-8131a176db8c"
+		},
+		{
+			"id": "918f3ba1-f5ee-94df-0a66-c0ae58c418c7",
+			"headers": "Authorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/post/all-posts",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628788945928,
+			"name": "Posts",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"folderId": "d1e2427c-986b-8507-79e9-3165c42da2c4"
+		},
+		{
+			"id": "a8a513fd-6427-e328-796e-a13e7d2bf490",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/posts",
+			"folder": "ecc3580b-cf6d-2963-430f-60faeaeff421",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628788999264,
+			"name": "Posts",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://www.seumochilao.com.br/wp-content/uploads/2016/02/montanha6.jpg\",\n\t\"description\":\"Eu nas montanhas\"\n}"
+		},
+		{
+			"id": "ab271ad8-e648-c9c4-5d39-925ee2a3a22b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/user",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "pm.test(\"Request is successful with a status code of 201\", function () {\n  pm.response.to.have.status(201);\n});\n\npm.test(\"Check that it returns an array\", function () {\n  var jsonData = pm.response.json();\n  pm.expect(jsonData).to.be.an(\"array\");\n});",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628788129761,
+			"name": "Create User",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Camila DEV2DEV\",\n\t\"user_name\":\"camilamancini\",\n\t\"avatar\":\"https://carreirafullstack.com/new-avatar.jpg\",\n\t\"bio\":\"Minha descrição da bio vai aqui.\",\n\t\"email\":\"camila@dev2dev.dev.br\",\n\t\"gender\":\"Feminino\",\n\t\"password\":\"12345678\"\n}"
+		},
+		{
+			"id": "ae77004a-c3ad-47a8-5cdf-9f4d6cb82ee7",
+			"headers": "Authorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/post/1",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628767191148,
+			"name": "Delete Post",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"folderId": "d1e2427c-986b-8507-79e9-3165c42da2c4"
+		},
+		{
+			"id": "cdf032c9-e657-897f-a31f-65ac09512be3",
+			"headers": "Authorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/posts/my-posts",
+			"folder": "ecc3580b-cf6d-2963-430f-60faeaeff421",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628789099351,
+			"name": "My Posts",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
 			"responses": []
+		},
+		{
+			"id": "db6bea59-b3e8-112e-1fd3-7a487acdba8e",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/posts/1",
+			"folder": "ecc3580b-cf6d-2963-430f-60faeaeff421",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628789065470,
+			"name": "Posts",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://www.seumochilao.com.br/wp-content/uploads/2016/02/montanha6.jpg\",\n\t\"description\":\"Eu nas montanhas\"\n}"
+		},
+		{
+			"id": "de1e3bac-7533-944b-9389-b924b41486e9",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{token}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{token}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/posts",
+			"folder": "d1e2427c-986b-8507-79e9-3165c42da2c4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628789010022,
+			"name": "Posts",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"rawModeData": "{\n\t\"image\":\"https://www.seumochilao.com.br/wp-content/uploads/2016/02/montanha6.jpg\",\n\t\"description\":\"Eu nas montanhas\"\n}"
+		},
+		{
+			"id": "e526f4c7-c2ec-0ebb-ef89-ddc1aba343f1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{API_URL}}/auth",
+			"folder": "dac5144b-3aff-ff89-25c3-9b835d491b6b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1628788131619,
+			"name": "Authentication",
+			"description": "",
+			"collectionId": "f01bfd59-e71e-b89d-fb8e-8131a176db8c",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"camila@dev2dev.dev.br\",\n\t\"user_name\":\"camilamancini\",\n\t\"password\":\"12345678\"\n}"
 		}
 	]
 }
