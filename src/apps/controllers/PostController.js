@@ -141,7 +141,7 @@ class PostController {
           as: 'user',
           required: true,
           attributes: ['id', 'user_name'],
-        }
+        },
       ],
     });
 
