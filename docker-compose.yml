@@ -1,0 +1,30 @@
+version: "3.7"
+
+services: 
+  dbinstadev:
+    container_name: dbinstadev
+    image: mysql
+    ports: 
+      - 3306:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: instadev
+    volumes:
+    - database-volume:/var/lib/mysql
+            
+  app:
+    build: .
+    container_name: api
+    restart: always
+    ports: 
+      - 3000:3000
+    volumes: 
+      - .:/usr/app
+    links: 
+      - dbinstadev
+    depends_on: 
+      - dbinstadev
+
+
+volumes:
+  database-volume:
